@@ -6,7 +6,7 @@
 		<div class="desc typewriter">
 			<h1><span>Welcome</span> to my Portfolio</h1>
 			<h2>My Name is <span class="underline"> Gabriel </span></h2>
-			<h2>I'am a <span>Front End Developer</span></h2>
+			<h2>I'am a <span>Full Stack Developer</span></h2>
 		</div>
 	</div>
 </template>
