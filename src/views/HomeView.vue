@@ -6,6 +6,6 @@
 
 <template>
 	<Header></Header>
-	<!-- <Main></Main>
-	<Footer></Footer> -->
+	<Main></Main>
+	<Footer></Footer>
 </template>

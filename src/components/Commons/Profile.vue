@@ -6,7 +6,7 @@
 		<div class="desc typewriter">
 			<h1><span>Welcome</span> to my Portfolio</h1>
 			<h2>My Name is <span class="underline"> Gabriel </span></h2>
-			<h2>I'am a Front End <span>Developer</span></h2>
+			<h2>I'am a <span>Front End Developer</span></h2>
 		</div>
 	</div>
 </template>
@@ -75,9 +75,9 @@
 		font-weight: 300;
 		font-size: 40px;
 		line-height: 130%;
-        opacity: 0;
-        animation: fadeInFromBottom 1s ease-in-out forwards;
-        animation-delay: 2.5s;
+		opacity: 0;
+		animation: fadeInFromBottom 1s ease-in-out forwards;
+		animation-delay: 2.5s;
 	}
 
 	.typewriter h1 {
@@ -96,7 +96,7 @@
 		}
 		to {
 			width: 100%;
-            border-right: 0px solid;
+			border-right: 0px solid;
 		}
 	}
 
@@ -111,15 +111,24 @@
 		}
 	}
 
-    @keyframes fadeInFromBottom {
-        from {
-            opacity: 0;
-            transform: translateY(20px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
+	@keyframes fadeInFromBottom {
+		from {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
 
+	@media (max-width: 998px) {
+		.profile .desc h1 {
+			font-size: 22px;
+		}
+
+		.profile .desc h2 {
+			font-size: 16px;
+		}
+	}
 </style>

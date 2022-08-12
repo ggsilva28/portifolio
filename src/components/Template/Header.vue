@@ -34,7 +34,7 @@
 	header {
 		width: 100vw;
 		height: 100vh;
-		background-image: url("../../assets/img/header-1920.png");
+		background-image: url("@/assets/img/header-1920.png");
 		background-position: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -48,7 +48,8 @@
 		padding: 35px;
 	}
 
-	.social, .about-me {
+	.social,
+	.about-me {
 		display: flex;
 		flex-flow: row nowrap;
 		align-items: center;
@@ -56,7 +57,8 @@
 		gap: 12px;
 	}
 
-	.about-me{
+	.about-me {
 		height: 70%;
 	}
+
 </style>
