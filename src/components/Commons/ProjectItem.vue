@@ -8,7 +8,7 @@
 <template>
 	<a class="item" :href="link" target="_blank">
 		<div class="image">
-			<img :src="`@/assets/banners/${name}.png`" @error="getBanner" />
+			<img :src="`/images/${name}.png`" @error="getBanner" />
 		</div>
 
 		<div class="name">
@@ -53,9 +53,9 @@
 					}
 
 					if (hasNode) {
-						event.target.src = "@/assets/banners/node-default.png";
+						event.target.src = "/images/node-default.png";
 					} else {
-						event.target.src = "@/assets/banners/default.png";
+						event.target.src = "/images/default.png";
 					}
 				}
 			}
