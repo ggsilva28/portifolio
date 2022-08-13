@@ -50,7 +50,8 @@
 						return {
 							name: repo.name,
 							topics: this.addTags(repo.topics),
-							link: repo.html_url
+							link: repo.html_url,
+							created_at: repo.created_at
 						};
 					});
 
@@ -66,6 +67,10 @@
 
 				//order by count
 				this.tags = Object.values(this.tags).sort((a: any, b: any) => b.count - a.count);
+
+				this.repoList = this.repoList.sort((a: any, b: any) => {
+					return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+				});
 			}
 		},
 		methods: {
@@ -124,6 +129,6 @@
 	.projects-list {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-		gap: 24px;
+		gap: 60px;
 	}
 </style>
