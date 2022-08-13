@@ -8,7 +8,7 @@
 <template>
 	<a class="item" :href="link" target="_blank">
 		<div class="image">
-			<img :src="`src/assets/banners/${name}.png`" @error="getBanner" />
+			<img :src="`@/assets/banners/${name}.png`" @error="getBanner" />
 		</div>
 
 		<div class="name">
@@ -53,9 +53,9 @@
 					}
 
 					if (hasNode) {
-						event.target.src = "src/assets/banners/node-default.png";
+						event.target.src = "@/assets/banners/node-default.png";
 					} else {
-						event.target.src = "src/assets/banners/default.png";
+						event.target.src = "@/assets/banners/default.png";
 					}
 				}
 			}
@@ -86,13 +86,13 @@
 		color: var(--color-contrast);
 	}
 
-	.image{
+	.image {
 		width: calc(100% + 20px);
 		height: 220px;
 		transform: translateX(0px) translateY(-20px);
 	}
 
-	.image img{
+	.image img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
