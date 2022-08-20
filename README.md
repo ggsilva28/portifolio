@@ -12,7 +12,7 @@ You can my portfolio at https://ggsilva.tech/
 
 ## 🚀 About me
 
-I'm a full stack developer looking to learn new technologies and experiment on diferent projects.
+I'm a full stack developer looking to learn new technologies and experiment on different projects.
 
 See more about my skills and accomplishments 
 
