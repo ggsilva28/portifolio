@@ -7,7 +7,7 @@ This project is builded using Vue and Typescript and all the data comes from the
 
 ## Live project
 
-You can my portfolio at https://ggsilva.tech/
+You can see my portfolio at https://ggsilva.website/
 
 
 ## 🚀 About me
